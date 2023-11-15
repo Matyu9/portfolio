@@ -6,11 +6,8 @@
 */
 
 @font-face {
-  font-family: 'CascadiaMono';
-  font-style: normal;
-  font-weight: 400;
-  src: url(CascadiaMono.woff2) format('woff2');
-  font-display: swap;
+    font-family: "CascadiaMono";
+    src: url("CascadiaMono.ttf");
 }
 
 body {
