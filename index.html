@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -38,7 +38,7 @@
             <p>drwxr-xr-x 6 matyu matyu 1.0K juin 17 14:27 ..</p>
             <p>drwxr-xr-x 4 matyu matyu 4.0K juin 12 15:47 Connaissances</p>
             <p>drwxr-xr-x 2 matyu matyu 8.0K déc. 28 15:30 <a href="#contact">Contacte</a></p>
-            <p>drwxr-xr-x 2 matyu matyu 4.0K jan. 21 15:30 <a href="#projects">Projets</a></p>
+            <p>drwxr-xr-x 2 matyu matyu 4.0K jan. 21 15:30 <a>Projets</a></p>
         </div>
 
         <p class="command"><span class="green">matyu@deb:~$</span> cd Connaissances/</p>
@@ -65,7 +65,9 @@
 
         <p class="command"><span class="red">mysql></span> exit</p>
 
-        <p class="command"><span class="green">matyu@deb:~$</span> <span id="prompt">_</span></p>
+        <p class="command"><label for="cmd"><span class="green">matyu@deb:~$</span></label>
+            <input type="text" id="cmd" class="command" name="cmd" oninput="ajusterTaille(this)"/>
+        </p>
 
     </div>
 

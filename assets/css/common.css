@@ -13,7 +13,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'CascadiaMono';
+    font-family: 'CascadiaMono', serif;
     background-color: #0c162d;
 }
 
@@ -98,3 +98,11 @@ a:hover {
        transform: translateX(0px);
      }
    }
+
+input#cmd {
+    background-color: #0c162d;
+    border: #0c162d;
+    outline: none;
+    font-family: "CascadiaMono", serif;
+    font-size: 16px;
+}
