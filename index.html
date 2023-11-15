@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>matyu.fr</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" type="image/png" href="assets/chat.png" />
+    <link rel="icon" type="image/png" href="assets/img/chat.png" />
     <link rel="stylesheet" type="text/css" href="assets/css/common.css">
     <script defer src="assets/js/main.js"></script>
 </head>
@@ -28,7 +28,7 @@
         <p class="command"><span class="green">matyu@deb:~$</span> whoami</p>
         <div class="result">
             <p><span class="red">Prénom:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mathieu</p>
-            <p><span class="red">Age:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21</p>
+            <p><span class="red">Age:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16</p>
             <p><span class="red">Métier:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Étudiant</p>
         </div>
 
@@ -48,11 +48,19 @@
             <p style="font-weight: bold;">Langages de programmation:</p>
             <p>PYTHON, HTML, CSS, JS, Élixir (en cours apprentissage)</p>
             <p style="font-weight: bold;">Autre :</p>
-            <p>Linux, NGINX, CloudFlare Management, Arduino, Raspberry, ...</p>
+            <p>Linux, NGINX, MariaDB, CloudFlare Management, Arduino, Raspberry, ...</p>
         </div>
 
-        <p class="command"><span class="green">matyu@deb:~/Connaissances$</span> sudo mysql -u root -p **********</p>
+        <p class="command"><span class="green">matyu@deb:~/Connaissances$</span> sudo mariadb -u root -p **********</p>
 
+        <div class="result">
+            <p>Welcome to the MariaDB monitor. Commands end with ; or \g.</p>
+            <p>Your MariaDB connection id is 123</p>
+            <p>Server version: 20.8.14-MariaDB Debian 12</p>
+            <p>Copyright (c) 2000, 2023, Oracle, MariaDB Corporation Ab and others.</p>
+            <br>
+            <p>Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.</p>
+        </div>
         <p class="command"><span class="red">mysql></span> use informations;</p>
         <p class="command"><span class="red">mysql></span> SELECT * FROM socials;</p>
         <div class="result" id="contact">
@@ -64,6 +72,8 @@
         </div>
 
         <p class="command"><span class="red">mysql></span> exit</p>
+
+        <div class="cmd-results-input"></div>
 
         <p class="command"><label for="cmd"><span class="green">matyu@deb:~$</span></label>
             <input type="text" id="cmd" class="command" name="cmd" oninput="ajusterTaille(this)"/>
