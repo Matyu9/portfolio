@@ -35,15 +35,21 @@ function ajouterCommande(cmd){
     cmdName.setAttribute('class', 'command');
     cmdName.innerHTML = `<span class="green">matyu@deb:~$</span> ${cmd}`;
 
-    const cmdResult = document.createElement('p');
-    cmdResult.setAttribute('class', 'result')
-    try {
-        cmdName.innerHTML = commands.cmd;
-    } catch (error) {
+    const cmdResultDiv = document.createElement('div');
+    cmdResultDiv.setAttribute('class', 'result');
+    const cmdResultText = document.createElement('p')
 
+    if (commands[cmd]){
+        cmdResultText.innerHTML = commands[cmd];
+    } else {
+        cmdResultText.innerHTML = commands['error'];
     }
 
+
     element.appendChild(cmdName);
+
+    cmdResultDiv.appendChild(cmdResultText);
+    element.appendChild(cmdResultDiv);
 
     fieldToUpdate.appendChild(element);
     input.scrollIntoView({ behavior: 'smooth', block: 'end' });
@@ -52,7 +58,7 @@ function ajouterCommande(cmd){
 
 input.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
-        ajouterCommande(input.value)
+        ajouterCommande(input.value.toLowerCase())
         input.value = '';
     }
 });
