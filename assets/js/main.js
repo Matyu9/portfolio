@@ -2,7 +2,6 @@ const input = document.getElementById('cmd');
 const fieldToUpdate = document.getElementById('cmd-results-input');
 let commands = [];
 input.value = '';
-input.focus();
 
 
 fetch('assets/js/json/cmd.json')
@@ -52,6 +51,7 @@ function ajouterCommande(cmd){
     element.appendChild(cmdResultDiv);
 
     fieldToUpdate.appendChild(element);
+    input.style.width = "375px";
     input.scrollIntoView({ behavior: 'smooth', block: 'end' });
     window.scrollBy(0, 1000);
 }
