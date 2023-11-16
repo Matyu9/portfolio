@@ -61,7 +61,7 @@ body {
 }
 
 .another_yellow {
-    color: #f7ee7f;
+    color: #f7ee7f !important;
 }
 
 a{
