@@ -34,7 +34,7 @@ function ajouterCommande(cmd){
 
     const cmdName = document.createElement('p');
     cmdName.setAttribute('class', 'command');
-    cmdName.innerHTML = `<span class="green">matyu@deb:~$</span> ${cmd}`;
+    cmdName.innerHTML = `<span class="green">matyu@deb:~$/Interaction/</span> ${cmd}`;
 
     const cmdResultDiv = document.createElement('div');
     cmdResultDiv.setAttribute('class', 'result');
