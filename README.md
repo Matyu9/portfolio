@@ -1,4 +1,5 @@
-# lindwen-website-terminal
+# [lindwen-website-terminal](https://github.com/Lindwen/lindwen-website-terminal)
 
-color: c5d86d
-color: c1ae7c
+Voici ma propre version en français du 'Website Terminal' de [Lindwen](https://github.com/Lindwen). 
+
+- Ajout d'un terminal interactif.
