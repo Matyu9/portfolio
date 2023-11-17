@@ -30,6 +30,11 @@ function ajusterTaille(input) {
 }
 
 function ajouterCommande(cmd){
+    if (cmd === 'clear'){
+        fieldToUpdate.innerHTML = "";
+        return
+    }
+
     const element = document.createElement('div');
 
     const cmdName = document.createElement('p');
