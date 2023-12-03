@@ -1,5 +1,5 @@
 {
-  "help": "",
+  "help": "<p style=\"font-weight: bold; margin-bottom: 5px\" class='another_yellow '>Liste des commandes disponibles:</p>\n            <p><span class=\"red\">ls</span>: Liste les fichiers dans le répertoire courant</p>\n            <p><span class=\"red\">whoami</span>: Donne des informations sur moi</p>\n            <p><span class=\"red\">cat</span>: Lis les informations contenue dans un fichier</p>",
   "whoami": "<p><span class=\"red\">Prénom:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mathieu</p>\n            <p><span class=\"red\">Age:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16</p>\n            <p><span class=\"red\">Métier:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Étudiant</p>",
   "ls": "projets.md",
   "ls -lah": "<p>drwxr-xr-x 1 matyu matyu 55.0K juin 17 14:27 .</p>\n            <p>drwxr-xr-x 6 matyu matyu 1.0K&nbsp; juin 17 14:27 ..</p>\n            <p>.rw-r--r-- 4 matyu matyu 4.0K&nbsp; juin 12 15:47 projets.md</p>",
