@@ -4,5 +4,6 @@
   "ls": "projets.md",
   "ls -lah": "<p>drwxr-xr-x 1 matyu matyu 55.0K juin 17 14:27 .</p>\n            <p>drwxr-xr-x 6 matyu matyu 1.0K&nbsp; juin 17 14:27 ..</p>\n            <p>.rw-r--r-- 4 matyu matyu 4.0K&nbsp; juin 12 15:47 projets.md</p>",
   "cat projets.md": "<p style=\"font-weight: bold; margin-bottom: 5px\" class='another_yellow '>Cantina:</p>\n            <p>Cantina est une suite de logiciel web open-source en python.</p>\n            <p>Github: <a href=\"https://github.com/Cantina-Org\" target=\"_blank\">Cantina-Org</a></p>\n            <p style=\"font-weight: bold; margin-top: 8px; margin-bottom: 5px\" class='another_yellow'>Autre :</p>\n            <p>J'ai certainement fait plusieurs autre projet depuis la dernière que j'ai mis le site à jour !</p>\n            <p>Alors rendez vous sur mon profil <a href=\"https://github.com/Matyu9\" target=\"_blank\">GitHub</a></p>",
-  "error": "<span class=\"red\">Erreur : </span> commande inconnue!"
+  "error": "<span class=\"red\">Erreur : </span> commande inconnue!",
+  "credits": "ee"
 }
